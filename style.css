@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 27px;
 }
+h2{
+    font-size: 22px;
+}
 .Orange-color{
     color: orange;
 }
-section{
+.flexible-continer{
     display:flex;
     margin-bottom: 100px;
 }
@@ -38,4 +41,35 @@ padding-left: 7%;
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experience-aria{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left:10px solid;
+}
+#web-dev-exprience{
+    border-left: 7px solid;
+    border-image: linear-gradent(blue,cyan);
+    border-image-slice: 1;
+    
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradent(salmon,tomato);
+    border-image-slice: 1;
+    
+}
+footer p{
+text-align: center;
 }
